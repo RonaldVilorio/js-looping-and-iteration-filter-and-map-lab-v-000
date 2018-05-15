@@ -6,5 +6,5 @@ function driversWithRevenueOver(drivers,revenue){
 
 function driverNamesWithRevenueOver(drivers,revenue){
   debugger
-  return drivers.map(function(d){return driver["revenue"] > revenue   })
+  return drivers.map(function(d){return d["revenue"] > revenue })
 }
