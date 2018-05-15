@@ -12,7 +12,7 @@ function exactMatch(drivers,attribute){
   if (attribute["name"]){
     return drivers.filter(function(driver){return driver[attribute] === attribute})
   }
-  else {
+  else if (attribute["revenue"]) {
     return drivers.filter(function(driver){return driver[attribute] === attribute})
   }
 
