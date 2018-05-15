@@ -11,10 +11,10 @@ function driverNamesWithRevenueOver(drivers,revenue){
 function exactMatch(drivers,attribute){
   debugger
   if (attribute["name"]){
-    return drivers.filter(function(driver){return driver[attribute] === attribute})
+    return drivers.filter(function(driver){return driver["name"] === attribute})
   }
   else if (attribute["revenue"]) {
-    return drivers.filter(function(driver){return driver[attribute] === attribute})
+    return drivers.filter(function(driver){return driver["revenue"] === attribute})
   }
 
 }
