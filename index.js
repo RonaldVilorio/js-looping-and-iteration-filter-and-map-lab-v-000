@@ -5,7 +5,7 @@ function driversWithRevenueOver(drivers,revenue){
 }
 
 function driverNamesWithRevenueOver(drivers,revenue){
-  // debugger
+  debugger
   driversWithRevenueOver = driversWithRevenueOver(drivers,revenue)
   driversWithRevenueOver.map{return driver["name"]}
 }
